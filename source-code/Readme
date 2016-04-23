@@ -1,0 +1,32 @@
+This Folder(source-code) contains two files.
+
+1) MyDecisionTree
+
+	- This is a java project that consists of the entire source code for the assignment.
+
+2) Weka.jar
+
+	- This is a jar file of the weka tool. 
+	- The source code of the decision tree uses various this package for evaluating the decision tree
+	  model using 10-folds cross validation.
+	- This file must be added as an external jar file while compiling and executing the MyDecisionTree Project.
+
+3) Project Hierarchy
+
+	Susheel_edited
+		- src
+		     -ml
+			- assnmnt2
+				- decisiontree
+					-Begin_DTree.java (Main class)
+					-GrowTree.java
+					-print_DTree.java
+					-Tree.java
+
+******************************
+INPUT FILE MOST IMPORTANT 
+******************************
+
+4) Input File : 	
+In the Begin_DTree.java( Main Class) the "String input_file" must be changed to the desired input ARFF file path.
+					 ******************	 				  
